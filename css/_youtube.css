@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "changa_one_regular";
+  src: url("../fonts/ChangaOne/changaone-regular-webfont.woff2") format("woff2"),
+    url("../fonts/ChangaOne/ChangaOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "butler_medium";
+  src: url("../fonts/Butler_Webfont/Butler-Bold.woff2") format("woff2"),
+    url("../fonts/Butler_Webfont/Butler-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "handlee";
+  src: url("../fonts/handlee/handlee-regular-webfont.woff2") format("woff2"),
+    url("../fonts/handlee/handlee-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "pettingill_cfbold";
+  src: url("../fonts/PettingillCF-Bold/pettingillcf-bold.woff2") format("woff2"),
+    url("../fonts/PettingillCF-Bold/pettingillcf-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: #eee;
+}
+
+.wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+}
+
+header{
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5);
+
+}
+
+header img{
+  width: 100px;
+}
+
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search input{
+  height: 32px;
+  padding: 5px;
+  outline: none;
+}
+
+.search button{
+  color:#fff;
+  background-color:#cf332c ;
+  height: 32px;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.video-list{
+  padding:30px 0;
+  list-style: none;
+}
+
+.video-list > div{
+  display: flex;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .5);
+}
+
+.video-list img{
+  margin-right: 20px;
+}
+
+iframe{
+  height: 0;
+  margin:30px auto 0 ;
+}
+
+iframe.visible{
+  height: 600px;
+}
